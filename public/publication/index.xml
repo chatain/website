@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Renewing the Resource-Based View: New Contexts, New Concepts, and New Methods</title>
+      <link>http://localhost:1313/publication/helfat-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/helfat-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client-Related Factors and Collaboration between Human Assets</title>
+      <link>http://localhost:1313/publication/mawdsley-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mawdsley-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NGOs and the Creation of Value in Supply Chains</title>
+      <link>http://localhost:1313/publication/chatain-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alleviating Managerial Dilemmas in Human-Capital-Intensive Firms Through Incentives: Evidence From M&amp;A Legal Advisors</title>
+      <link>http://localhost:1313/publication/chatain-2017-b/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2017-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating Value Creation from Revealed Preferences: Application to Value-Based Strategies</title>
+      <link>http://localhost:1313/publication/chatain-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Do Strategic Factor Markets Respond to Rivalry in the Product Market?</title>
+      <link>http://localhost:1313/publication/chatain-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value Creation and Value Capture with Frictions</title>
+      <link>http://localhost:1313/publication/chatain-2011-a/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2011-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value Creation, Competition and Performance in Buyer-Supplier Relationships</title>
+      <link>http://localhost:1313/publication/chatain-2011-b/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2011-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitors’ Resource-Oriented Strategies: Acting upon Competitors’ Resources through Interventions in Factor Markets and Political Markets</title>
+      <link>http://localhost:1313/publication/capron-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/capron-2008/</guid>
+      <description>&lt;!-- put the pdf file in public/uploads/ and call for uploads/capron-chatain-2008.pdf --&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Horizontal Scope of the Firm: Organizational Tradeoffs versus Buyer-Supplier Relationships</title>
+      <link>http://localhost:1313/publication/chatain-2007/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chatain-2007/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
