@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Professor of Strategy and Business Policy at HEC Paris'
+    twitter: 'OChatain'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -23,7 +23,7 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'google-site-verification=GbdZ7HY-Y-pHaAKkK_znT0HEkti5keqkiEOfW-A-Bzc'
     baidu: ''
 
 # Site header
