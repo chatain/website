@@ -6,7 +6,7 @@
 # Website name
 title: Olivier Chatain
 # Website URL
-baseURL: 'https://chatain.github.io/website/'
+baseURL: 'https://example.com/'
 
 ############################
 ## LANGUAGE

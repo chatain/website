@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Professor of Strategy and Business Policy at HEC Paris'
-    twitter: 'OChatain'
+    description: 'Olivier Chatain'
+    twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -23,7 +23,7 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: 'google-site-verification=GbdZ7HY-Y-pHaAKkK_znT0HEkti5keqkiEOfW-A-Bzc'
+    google: ''
     baidu: ''
 
 # Site header
