@@ -17,14 +17,14 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Chatain CV 2024 01 19.pdf
+        url: uploads/Chatain CV 2026 06 17.pdf
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: DSCF5053.tiff
+          filename: DSCF5053.jpeg
           filters:
             brightness: 1.0
           size: cover
