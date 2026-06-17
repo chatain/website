@@ -43,9 +43,9 @@ profiles:
     url: https://orcid.org/0000-0002-1380-3385
 
 interests:
-  - Competitive strategy
+  - Competitive Strategy
   - Formal models applied to business strategy
-  - Business strategy and geopolitics
+  - Business strategy and great power rivalry
 
 
 education:
@@ -84,7 +84,7 @@ work:
     date_end: 2014-06-30
 
 # Skills
-# Add your own SVGs to `assets/media/icons/`
+# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
@@ -159,11 +159,5 @@ awards:
 
 ## About Me
 
-Olivier Chatain is a Professor of Strategy and Business Policy at HEC Paris and an associated researcher at the Institute for Strategic Research at Ecole Militaire, Paris (IRSEM).
-
-He is a recognized business scholar with an extensive record of publications in top management and strategy journals (Academy of Management Review, Management Science, Organization Science, and Strategy Science), notably with work dealing with the theory of value creation and value capture. His current research lies at the intersection of business strategy and geopolitics, focusing on how large digital platforms, their infrastructures, and their role in the public sphere, feature in the rivalry among states.
-
-Prior to joining HEC Paris, Olivier was an assistant professor at the Wharton School of the University of Pennsylvania. He served six years as an associate editor of the Strategic Management Journal and currently serves as a Program Director for early career grants at the Strategy Research Foundation and as an editorial board member of Strategy Science.
-
-He holds an MSc and a PhD from INSEAD, an MA from University Paris 1 Pantheon Sorbonne, and a Diploma from ESSEC. At HEC Paris, Olivier teaches competitive strategy to MBA, MSc and PhD students.
- 
+Olivier Chatain is a Professor at HEC Paris in the Strategy and Business Policy Department. His research interests include business strategy, the role of firms in the public sphere, and how states and non-state actors exploit privately managed infrastructures to further their interests. He holds a PhD from INSEAD and served on the faculty of the Wharton School at the University
+of Pennsylvania before joining HEC Paris. He was an invited researcher at IRSEM during the academic year 2021-2022.
