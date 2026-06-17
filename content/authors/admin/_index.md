@@ -94,5 +94,4 @@ languages:
 
 ## About Me
 
-Olivier Chatain is a Professor at HEC Paris in the Strategy and Business Policy Department. His research interests include business strategy, the role of firms in the public sphere, and how states and non-state actors exploit privately managed infrastructures to further their interests. He holds a PhD from INSEAD and served on the faculty of the Wharton School at the University
-of Pennsylvania before joining HEC Paris. He was an invited researcher at IRSEM during the academic year 2021-2022.
+Olivier Chatain is a Professor at HEC Paris in the Strategy and Business Policy Department and an Associated Researcher at IRSEM. At HEC he co-leads the Business and Geopolitics Lab. His research interests include business strategy, the role of firms in the public sphere, and how states and non-state actors exploit privately managed infrastructures to further their interests. He holds a PhD from INSEAD and served on the faculty of the Wharton School at the University of Pennsylvania before joining HEC Paris.
