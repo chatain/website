@@ -9,7 +9,9 @@ publishDate: '2024-11-17T19:50:30.148265Z'
 publication_types:
 - article-journal
 publication: '*Organization Science*'
-doi: 10.1287/orsc.2021.1459
+hugoblox:
+  ids:
+    doi: 10.1287/orsc.2021.1459
 featured: true
 abstract: >-
   Collaborations between individuals in firms have important implications for the

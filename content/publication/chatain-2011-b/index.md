@@ -7,7 +7,9 @@ publishDate: '2024-11-17T19:50:30.173121Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
-doi: 10.1002/smj.864
+hugoblox:
+  ids:
+    doi: 10.1002/smj.864
 abstract: >-
   The value‐based approach to strategy argues that a firm's ability to capture
   value depends on the extent of its added value. In this paper, I empirically

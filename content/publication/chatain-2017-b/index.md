@@ -9,7 +9,9 @@ publishDate: '2024-11-17T19:50:30.160431Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
-doi: 10.1002/smj.2473
+hugoblox:
+  ids:
+    doi: 10.1002/smj.2473
 abstract: >-
   **Research Summary:** We examine how human‐capital‐intensive firms deploy their
   human assets and how firm‐specific human capital interacts with incentives to

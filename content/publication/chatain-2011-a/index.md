@@ -8,7 +8,9 @@ publishDate: '2024-11-17T19:50:30.169027Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
-doi: 10.1002/smj.939
+hugoblox:
+  ids:
+    doi: 10.1002/smj.939
 abstract: >-
   We use a formal value‐based model to study how frictions—incomplete linkages in
   the industry value chain that keep some parties from meeting and

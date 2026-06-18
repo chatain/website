@@ -8,7 +8,9 @@ publishDate: '2024-11-17T19:50:30.164742Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*, 47 (1), 228-256'
-doi: 10.1002/smj.70012
+hugoblox:
+  ids:
+    doi: 10.1002/smj.70012
 featured: true
 abstract: >-
   **Research Summary:** Alignment of incentives to improve value creation in
