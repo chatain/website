@@ -11,10 +11,15 @@ _Last updated: 2026-06-18._
 
 ## Outstanding
 
-### 1. Hero background image quality
-`content/_index.md` uses `assets/media/DSCF5053.jpeg` (~23 KB) for the full-screen homepage
-background — small/soft for that use. Consider replacing with a properly web-optimized export
-(~200–400 KB JPEG or WebP at full resolution). The oversized `.tiff` original was removed.
+### 1. Hero background image — resolution ceiling (mitigated, not fully fixed)
+The hero photo `assets/media/DSCF5053.jpeg` is only **1280×504** in *every* copy across the repo,
+including the `.tiff` "original" (preserved in `../../images/DSCF5053.tiff`) — so it upscales soft
+on full-screen displays and that can't be fixed from existing files. As a mitigation it was
+**darkened** (brightness 0.6, baked into the image) on 2026-06-18 to mask the softness and boost
+white-text contrast — note the landing page renders via `parse_block_v3`, which ignores the
+`design.filters.brightness` config knob, hence baking it in.
+**A true sharpness fix still requires a higher-resolution original from the camera** (Fujifilm
+DSCF originals are ~6000×4000); if Olivier supplies it, crop/optimize to a ~2560px-wide WebP + JPEG.
 
 ### 2. CV cache-busting (minor — declined for now)
 The CV is `static/uploads/Chatain CV 2026 06 17.pdf`, linked from the homepage Download CV button.
@@ -57,6 +62,7 @@ All are harmless and the build succeeds.
   the working-paper PDF, and the bib for the 2026 SMJ paper). They display on each paper's detail
   page (reached by clicking the title in the publication lists).
 - Suppressed the empty featured-image placeholder via the `card.html` override (item 4 above).
+- Darkened the homepage hero background (item 1 above) to mask upscaling softness / improve contrast.
 - Removed leftover Hugo Blox **demo content** (`content/post/*`, `content/event/*`).
 - Added `.gitignore`; stopped tracking build output (`public/`, `resources/_gen`, `hugo_stats.json`,
   `node_modules/`, `.DS_Store`).
