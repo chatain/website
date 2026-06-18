@@ -27,7 +27,9 @@ abstract: >-
   representations that, for example, can include subjective distortions of
   objective chances of value capture (v) It further leads the way to the use of
   generalized preference representations in the value-based framework.
-url_pdf: uploads/biform20-20230102.pdf
+links:
+- type: pdf
+  url: uploads/biform20-20230102.pdf
 ---
 
 

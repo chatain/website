@@ -9,7 +9,9 @@ publishDate: '2024-11-17T19:50:30.156446Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
-doi: 10.1002/smj.2633
+hugoblox:
+  ids:
+    doi: 10.1002/smj.2633
 abstract: >-
   **Research Summary:** We develop and apply a new set of empirical tools
   consistent with the tenets of value‐based business strategies, leveraging the

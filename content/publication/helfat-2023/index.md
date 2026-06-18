@@ -12,7 +12,9 @@ publishDate: '2024-11-17T19:50:30.141853Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
-doi: 10.1002/smj.3500
+hugoblox:
+  ids:
+    doi: 10.1002/smj.3500
 abstract: >-
   The resource‐based view is an enduring and impactful mainstay of research within
   strategic management and beyond. This editors' introduction to the special issue

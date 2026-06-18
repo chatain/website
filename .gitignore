@@ -1,0 +1,12 @@
+# Hugo build output (regenerated fresh by CI on every deploy)
+/public/
+/resources/_gen/
+hugo_stats.json
+.hugo_build.lock
+
+# Node / Tailwind CSS build dependencies
+/node_modules/
+assets/jsconfig.json
+
+# OS files
+.DS_Store
