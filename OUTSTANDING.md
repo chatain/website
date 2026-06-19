@@ -21,10 +21,11 @@ white-text contrast — note the landing page renders via `parse_block_v3`, whic
 **A true sharpness fix still requires a higher-resolution original from the camera** (Fujifilm
 DSCF originals are ~6000×4000); if Olivier supplies it, crop/optimize to a ~2560px-wide WebP + JPEG.
 
-### 2. CV cache-busting (minor — declined for now)
-The CV is `static/uploads/Chatain CV 2026 06 17.pdf`, linked from the homepage Download CV button.
-CV updates so far reuse the same filename → unchanged URL → browsers/CDN may serve a stale cached
-copy. Optional: use date-versioned filenames on each update so the URL changes.
+### 2. CV cache-busting (resolved — keep doing this)
+The CV is `static/uploads/Chatain CV 2026 06 19.pdf`, linked from the homepage Download CV button
+(`content/_index.md`). As of 2026-06-19 each CV update uses a **date-versioned filename** so the
+URL changes and stale cached copies are never served. On the next update: copy in the new PDF with
+that day's date in the name, update the link in `content/_index.md`, and `git rm` the old file.
 
 ### 3. Repo hygiene — old snapshots
 The `Website/` parent folder holds several dated snapshots (`OC241107`, `OC241113`, `OC250924`,
