@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: DSCF5053.jpeg
+          filename: hero-clouds.jpg
           filters:
             brightness: 1.0
           size: cover

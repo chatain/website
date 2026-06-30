@@ -11,15 +11,15 @@ _Last updated: 2026-06-18._
 
 ## Outstanding
 
-### 1. Hero background image — resolution ceiling (mitigated, not fully fixed)
-The hero photo `assets/media/DSCF5053.jpeg` is only **1280×504** in *every* copy across the repo,
-including the `.tiff` "original" (preserved in `../../images/DSCF5053.tiff`) — so it upscales soft
-on full-screen displays and that can't be fixed from existing files. As a mitigation it was
-**darkened** (brightness 0.6, baked into the image) on 2026-06-18 to mask the softness and boost
-white-text contrast — note the landing page renders via `parse_block_v3`, which ignores the
-`design.filters.brightness` config knob, hence baking it in.
-**A true sharpness fix still requires a higher-resolution original from the camera** (Fujifilm
-DSCF originals are ~6000×4000); if Olivier supplies it, crop/optimize to a ~2560px-wide WebP + JPEG.
+### 1. Hero background image — resolved
+Replaced the soft 1280×504 photo with a high-res, rights-free storm-cloud image on 2026-07-01.
+Current hero: `assets/media/hero-clouds.jpg` (2560×1024, cropped 2.5:1 from a 4000×3000 Pexels
+photo, free for commercial use, no attribution required). It was darkened (brightness 0.7,
+contrast 1.05, baked into the file — the landing page's `parse_block_v3` ignores the
+`design.filters.brightness` knob) so white name/title text stays readable: top-third mean
+brightness ≈ 36/255. The full-res source is archived at
+`../../images/hero-clouds-source-pexels-17785314.jpg` for any future re-crop. (The old photo
+`DSCF5053` is no longer used; its `.tiff` remains in `../../images/`.)
 
 ### 2. CV cache-busting (resolved — keep doing this)
 The CV is `static/uploads/Chatain CV 2026 06 30.pdf`, linked from the homepage Download CV button
