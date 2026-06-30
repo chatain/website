@@ -22,7 +22,7 @@ white-text contrast — note the landing page renders via `parse_block_v3`, whic
 DSCF originals are ~6000×4000); if Olivier supplies it, crop/optimize to a ~2560px-wide WebP + JPEG.
 
 ### 2. CV cache-busting (resolved — keep doing this)
-The CV is `static/uploads/Chatain CV 2026 06 19.pdf`, linked from the homepage Download CV button
+The CV is `static/uploads/Chatain CV 2026 06 30.pdf`, linked from the homepage Download CV button
 (`content/_index.md`). As of 2026-06-19 each CV update uses a **date-versioned filename** so the
 URL changes and stale cached copies are never served. On the next update: copy in the new PDF with
 that day's date in the name, update the link in `content/_index.md`, and `git rm` the old file.
