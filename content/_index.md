@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Chatain CV 2026 06 19.pdf
+        url: uploads/Chatain CV 2026 06 30.pdf
     design:
       css_class: dark
       background:
