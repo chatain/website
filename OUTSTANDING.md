@@ -27,9 +27,10 @@ The CV is `static/uploads/Chatain CV 2026 06 30.pdf`, linked from the homepage D
 URL changes and stale cached copies are never served. On the next update: copy in the new PDF with
 that day's date in the name, update the link in `content/_index.md`, and `git rm` the old file.
 
-### 3. Repo hygiene — old snapshots
-The `Website/` parent folder holds several dated snapshots (`OC241107`, `OC241113`, `OC250924`,
-`OC251010`). Only `OC251010/website/` is live; the older ones can be archived/removed when convenient.
+### 3. Repo hygiene — old snapshots (resolved)
+The old dated snapshots (`OC241107`, `OC241113`, `OC250924`) were compressed into
+`../../_archive/old-snapshots-2026-07-01.tar.gz` (92M, integrity-verified) and the originals
+removed on 2026-07-01. Only `OC251010/website/` remains live in the `Website/` parent folder.
 (Build output — `public/`, `resources/_gen/`, `hugo_stats.json`, `node_modules/` — is now
 git-ignored and no longer tracked, as of the 2026-06-18 upgrade.)
 
