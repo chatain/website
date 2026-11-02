@@ -20,4 +20,4 @@ links:
 ---
 
 
-<!-- put the pdf file in public/uploads/ and call for uploads/capron-chatain-2008.pdf -->
+<!-- PDFs go in static/uploads/ (NOT public/, which is wiped on every build); link as uploads/<file>.pdf -->

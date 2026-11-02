@@ -40,6 +40,8 @@ All are harmless and the build succeeds.
 
 ## Standing practices
 
+- **Paper PDFs go in `static/uploads/`** (never `public/` — it is build output, wiped and regenerated
+  on every build and git-ignored). Link from front matter as `links: [{type: pdf, url: uploads/<file>.pdf}]`.
 - **CV updates** use a **date-versioned filename** so the URL changes and stale cached copies are
   never served. To update: drop the new PDF in `static/uploads/` named with that day's date
   (`Chatain CV YYYY MM DD.pdf`), point the Download CV link in `content/_index.md` at it, and
@@ -52,6 +54,12 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-02 — Restored 4 missing paper PDFs (all were 404 on the live site)
+- The working-paper PDFs (Cappelli–Chatain biform, Chatain–Plaksenkova ecosystem, Chatain–Kaul
+  political externalities) and Capron–Chatain 2008 AMR had only ever lived in `public/uploads/`
+  (per a wrong template comment), so they vanished once deploys built from a clean checkout.
+  Recovered from `_archive/` (OC250924 snapshot) into `static/uploads/`; fixed the comment.
 
 ### 2026-11-02 — Canonical domain + HTTPS
 - Turned on **Enforce HTTPS** in the Pages settings (cert covers apex + www). Before this,
