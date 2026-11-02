@@ -55,6 +55,12 @@ All are harmless and the build succeeds.
 
 ## Recently completed
 
+### 2026-11-02 — New working paper
+- Added *Meta and Google Are Wiring the World’s Oceans: What Does This Mean for Geopolitics and
+  Business?* (Chatain, 2026; IRSEM note v13) — `content/workingpapers/chatain-2026/`, PDF
+  `static/uploads/Chatain-2026-Meta-Google-Submarine-Cables.pdf`. Source: Dropbox
+  `Undersea Network/.../latex_IRSEM_v11_261014/IRSEM_note_v13.pdf`.
+
 ### 2026-11-02 — Removed superseded working paper
 - Removed the Chatain–Plaksenkova "Ecosystem Penalty" working paper (and its PDF): it is now
   published as *Incentive Alignment in Ecosystems* (SMJ 2026, `content/publication/chatain-2025/`).
