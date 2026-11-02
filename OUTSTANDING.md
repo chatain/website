@@ -55,6 +55,10 @@ All are harmless and the build succeeds.
 
 ## Recently completed
 
+### 2026-11-02 — Featured Helfat et al. (2023)
+- Marked *Renewing the Resource-Based View* (Helfat, Kaul, Ketchen, Barney, Chatain & Singh, SMJ 2023)
+  `featured: true`; Featured Publications now shows 4 papers (2026, 2023, 2022, 2019).
+
 ### 2026-11-02 — New working paper
 - Added *Meta and Google Are Wiring the World’s Oceans: What Does This Mean for Geopolitics and
   Business?* (Chatain, 2026; IRSEM note v13) — `content/workingpapers/chatain-2026/`, PDF

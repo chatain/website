@@ -12,6 +12,7 @@ publishDate: '2024-11-17T19:50:30.141853Z'
 publication_types:
 - article-journal
 publication: '*Strategic Management Journal*'
+featured: true
 hugoblox:
   ids:
     doi: 10.1002/smj.3500
