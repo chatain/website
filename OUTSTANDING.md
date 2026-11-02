@@ -5,11 +5,24 @@ project is structured and built). The live site is **https://www.olivierchatain.
 built from this directory (`github.com/chatain/website`, branch `main`, auto-deployed to
 GitHub Pages on push).
 
-_Last updated: 2026-07-01._
+_Last updated: 2026-11-02._
 
 ---
 
 ## Outstanding
+
+### 0. Theme is stranded at an abandoned module path; Hugo pinned at 0.162.1 until migrated
+Upstream renamed `HugoBlox/hugo-blox-builder` → **`HugoBlox/kit`** (Jan 2026) and restructured the
+modules: `modules/blox-tailwind` → `modules/blox`, `modules/blox-plugin-netlify` →
+`modules/integrations/netlify` (untagged pseudo-versions; latest May 2026). Our `go.mod` paths will
+never update again. The current theme **does not build on Hugo 0.168** (`includeFiles` removed;
+`tailwindcss` not whitelisted in `security.exec.allow`), and upstream's own academic-cv starter
+still pins Hugo 0.162.0 — so **stay on Hugo 0.162.1** (CI + local `~/.local/bin/hugo-0.162.1`) until
+a migration to `HugoBlox/kit`. When migrating / bumping Hugo past 0.163, also:
+- replace `imaging.quality: 80` in `config/_default/hugo.yaml` with `imaging.jpeg.quality` /
+  `imaging.webp.quality` (the new keys don't exist in 0.162.1, so changing early would silently drop
+  quality to the default);
+- re-diff the `card.html` override (item 1).
 
 ### 1. Theme override to re-sync on future theme upgrades
 `layouts/_partials/views/card.html` is a **vendored copy** of the theme's card view, modified to
@@ -39,6 +52,14 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-02 — Version audit
+- Bumped GitHub Actions off the deprecated Node 20 runtime: `checkout` v4→v7, `configure-pages`
+  v5→v6, `setup-node` v4→v7, `upload-pages-artifact` v3→v5 (now skips dotfiles — `public/` has none
+  that matter), `deploy-pages` v4→v5.
+- `@tailwindcss/cli` 4.3.1 → 4.3.3 (output verified identical apart from trivial CSS normalisation).
+- Installed pinned Hugo 0.162.1 locally at `~/.local/bin/hugo-0.162.1` (Homebrew `hugo` is 0.168 and
+  can't build the theme). See Outstanding item 0.
 
 ### 2026-07-01
 - **Replaced the hero background** with a high-res, rights-free storm-cloud image
