@@ -1,7 +1,7 @@
 # Outstanding Work
 
 Status notes for olivierchatain.com. Companion to `../CLAUDE.md` (which documents how the
-project is structured and built). The live site is **https://www.olivierchatain.com**,
+project is structured and built). The live site is **https://olivierchatain.com** (no www; `www.` redirects there, HTTPS enforced),
 built from this directory (`github.com/chatain/website`, branch `main`, auto-deployed to
 GitHub Pages on push).
 
@@ -52,6 +52,13 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-02 — Canonical domain + HTTPS
+- Turned on **Enforce HTTPS** in the Pages settings (cert covers apex + www). Before this,
+  `http://` served the site unencrypted and CI baked `http://olivierchatain.com/` into canonical
+  tags and the sitemap.
+- Standardised on **`olivierchatain.com` (no www)** — matching the existing Pages custom-domain
+  setting and what search engines had indexed. Updated `CNAME` and `baseURL` to match.
 
 ### 2026-11-02 — Version audit
 - Bumped GitHub Actions off the deprecated Node 20 runtime: `checkout` v4→v7, `configure-pages`
