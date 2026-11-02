@@ -55,6 +55,10 @@ All are harmless and the build succeeds.
 
 ## Recently completed
 
+### 2026-11-02 — Removed superseded working paper
+- Removed the Chatain–Plaksenkova "Ecosystem Penalty" working paper (and its PDF): it is now
+  published as *Incentive Alignment in Ecosystems* (SMJ 2026, `content/publication/chatain-2025/`).
+
 ### 2026-11-02 — Restored 4 missing paper PDFs (all were 404 on the live site)
 - The working-paper PDFs (Cappelli–Chatain biform, Chatain–Plaksenkova ecosystem, Chatain–Kaul
   political externalities) and Capron–Chatain 2008 AMR had only ever lived in `public/uploads/`
