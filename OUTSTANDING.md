@@ -5,7 +5,7 @@ project is structured and built). The live site is **https://olivierchatain.com*
 built from this directory (`github.com/chatain/website`, branch `main`, auto-deployed to
 GitHub Pages on push).
 
-_Last updated: 2026-11-02._
+_Last updated: 2026-11-11._
 
 ---
 
@@ -54,6 +54,13 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-11 — New publication (book chapter)
+- Added Chatain (2026), *Value Capture Theory*, in Reuer, Bisui, Kluppel & Leiblein (Eds.), *A Guide to
+  Key Theories for Strategic Management*, pp. 67–84, Edward Elgar (DOI 10.4337/9781035342853.00009,
+  Crossref-verified) — `content/publication/chatain-2026/`, type `chapter`. Attached the working-paper
+  version (`static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf`, labelled "Working paper (PDF)");
+  source `Projects/Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (revised 2025-06-28).
 
 ### 2026-11-02 — Featured Helfat et al. (2023)
 - Marked *Renewing the Resource-Based View* (Helfat, Kaul, Ketchen, Barney, Chatain & Singh, SMJ 2023)
