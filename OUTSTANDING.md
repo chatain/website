@@ -66,6 +66,9 @@ All are harmless and the build succeeds.
   Crossref-verified) — `content/publication/chatain-2026/`, type `chapter`. Attached the working-paper
   version (`static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf`, labelled "Working paper (PDF)");
   source `Projects/Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (revised 2025-06-28).
+- Fixed the book title on the WP cover ("Key Theories **of**" → "**for** Strategic Management", line 67 of
+  the `.tex`; pre-edit copy saved as `Chatain - Value Capture WP 2025_backup1.tex`, folder not under git),
+  recompiled (13 pp., no errors) and replaced the PDF on the site under the same filename (`19dce06`).
 
 ### 2026-11-02 — Featured Helfat et al. (2023)
 - Marked *Renewing the Resource-Based View* (Helfat, Kaul, Ketchen, Barney, Chatain & Singh, SMJ 2023)
