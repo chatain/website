@@ -55,6 +55,11 @@ All are harmless and the build succeeds.
 
 ## Recently completed
 
+### 2026-11-11 — CI: removed the Dart Sass install step
+- The deploy failed twice with `error: unable to contact snap store` in the "Install Dart Sass" step.
+  Neither the site nor the theme modules contain any `.scss`/`.sass` (CSS is built by Tailwind), so
+  the step was dead weight and a needless point of failure; removed from `.github/workflows/hugo.yml`.
+
 ### 2026-11-11 — New publication (book chapter)
 - Added Chatain (2026), *Value Capture Theory*, in Reuer, Bisui, Kluppel & Leiblein (Eds.), *A Guide to
   Key Theories for Strategic Management*, pp. 67–84, Edward Elgar (DOI 10.4337/9781035342853.00009,
