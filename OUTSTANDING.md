@@ -58,7 +58,8 @@ All are harmless and the build succeeds.
 ### 2026-11-12 — Value Capture WP PDF updated
 - Replaced `static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf` with the researcher's new build of
   `Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (author–year citations in parentheses;
-  13 pp.). Same filename, so existing links keep working.
+  13 pp.). Same filename, so existing links keep working. (This 20:48 build went live before the
+  researcher's "do not push yet" arrived; it had 6 stray "( " spaces in Brandenburger/Stuart citations.)
 - Later the same day replaced again with the 21:13 build (12 pp.): text edits, compact author–year
   citations (`authoryear-comp`, et al. for 3+ authors, sorted years), stray "( " spaces and
   "StuartJr." fixed. Checked before push: no undefined refs, same 40 references as before, Figure 1 present.
@@ -75,7 +76,8 @@ All are harmless and the build succeeds.
   version (`static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf`, labelled "Working paper (PDF)");
   source `Projects/Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (revised 2025-06-28).
 - Fixed the book title on the WP cover ("Key Theories **of**" → "**for** Strategic Management", line 67 of
-  the `.tex`; pre-edit copy saved as `Chatain - Value Capture WP 2025_backup1.tex`, folder not under git),
+  the `.tex`; folder not under git — a pre-edit copy `_backup1.tex` was saved but later removed by another
+  tool's cleanup of that folder),
   recompiled (13 pp., no errors) and replaced the PDF on the site under the same filename (`19dce06`).
 
 ### 2026-11-02 — Featured Helfat et al. (2023)
