@@ -59,6 +59,9 @@ All are harmless and the build succeeds.
 - Replaced `static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf` with the researcher's new build of
   `Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (author–year citations in parentheses;
   13 pp.). Same filename, so existing links keep working.
+- Later the same day replaced again with the 21:13 build (12 pp.): text edits, compact author–year
+  citations (`authoryear-comp`, et al. for 3+ authors, sorted years), stray "( " spaces and
+  "StuartJr." fixed. Checked before push: no undefined refs, same 40 references as before, Figure 1 present.
 
 ### 2026-11-11 — CI: removed the Dart Sass install step
 - The deploy failed twice with `error: unable to contact snap store` in the "Install Dart Sass" step.
