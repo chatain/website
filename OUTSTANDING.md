@@ -5,7 +5,7 @@ project is structured and built). The live site is **https://olivierchatain.com*
 built from this directory (`github.com/chatain/website`, branch `main`, auto-deployed to
 GitHub Pages on push).
 
-_Last updated: 2026-11-11._
+_Last updated: 2026-11-12._
 
 ---
 
@@ -54,6 +54,11 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-12 — Value Capture WP PDF updated
+- Replaced `static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf` with the researcher's new build of
+  `Value Capture Theory/LaTeX/Chatain - Value Capture WP 2025.pdf` (author–year citations in parentheses;
+  13 pp.). Same filename, so existing links keep working.
 
 ### 2026-11-11 — CI: removed the Dart Sass install step
 - The deploy failed twice with `error: unable to contact snap store` in the "Install Dart Sass" step.
