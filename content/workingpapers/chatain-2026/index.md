@@ -8,6 +8,9 @@ publishDate: '2026-11-02T00:00:00Z'
 publication_types:
 - article-journal
 publication: '*Working Paper*'
+hugoblox:
+  ids:
+    doi: 10.2139/ssrn.7701484
 abstract: |
   Submarine cables transmitting most intercontinental communications are a foundation of the world’s economy. For policymakers, they are a strategic infrastructure that must be secured in case of conflict and whose resilience must be improved. They are largely built and operated by privately owned firms, yet policymakers rarely make explicit how these businesses make money and how this ultimately matters to the resilience of the cable network. In this paper, I focus on the growing role taken in the submarine cable sector by so-called Big Tech (or “hyperscaler”) firms—Microsoft, Amazon, Google, and Meta. I argue that the causes of Big Tech’s growing role are typically misunderstood. Conventional wisdom sees these investments and direct ownership as a simple consequence of their share of data traffic. However, I find that two firms, Google and Meta, have come to dominate investment in submarine cables. The routes they choose differ sharply from those taken by traditional actors in the sector. They are more likely to avoid maritime chokepoints and they effectively create alternative worldwide cable loops.
 

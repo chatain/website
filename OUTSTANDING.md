@@ -59,6 +59,8 @@ All are harmless and the build succeeds.
 - SSRN approved abstract 7701484. Crossref confirms DOI 10.2139/ssrn.7701484 is *Meta and Google are Wiring
   the World's Oceans* (O. Chatain, ORCID-authenticated). Re-added the **SSRN** button (`type: preprint`) to
   `content/workingpapers/chatain-2026/index.md`. Closes the pending item listed in `HANDOVER_2026-11-18.md` §4.
+- Also added the DOI (`hugoblox.ids.doi: 10.2139/ssrn.7701484`) to the front matter and `doi`/`url` to
+  `cite.bib`, so the page shows a DOI link and the citation download includes it.
 
 ### 2026-11-18 — SSRN link for the Meta/Google cables working paper (added, then removed pending review)
 - Added an **SSRN** button (`type: preprint`, `label: SSRN`) to `content/workingpapers/chatain-2026/` →
