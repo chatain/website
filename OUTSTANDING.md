@@ -5,7 +5,7 @@ project is structured and built). The live site is **https://olivierchatain.com*
 built from this directory (`github.com/chatain/website`, branch `main`, auto-deployed to
 GitHub Pages on push).
 
-_Last updated: 2026-11-12._
+_Last updated: 2026-11-18._
 
 ---
 
@@ -54,6 +54,12 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-18 — SSRN link for the Meta/Google cables working paper
+- Added an **SSRN** button (`type: preprint`, `label: SSRN`) to `content/workingpapers/chatain-2026/` →
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7701484 (paper identified by the researcher; SSRN
+  blocks automated fetches and the DOI 10.2139/ssrn.7701484 was not yet registered, so not machine-verified).
+  The self-hosted PDF stays alongside it.
 
 ### 2026-11-12 — Value Capture WP PDF updated
 - Replaced `static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf` with the researcher's new build of
