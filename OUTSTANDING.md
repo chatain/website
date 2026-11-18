@@ -55,11 +55,14 @@ All are harmless and the build succeeds.
 
 ## Recently completed
 
-### 2026-11-18 — SSRN link for the Meta/Google cables working paper
+### 2026-11-18 — SSRN link for the Meta/Google cables working paper (added, then removed pending review)
 - Added an **SSRN** button (`type: preprint`, `label: SSRN`) to `content/workingpapers/chatain-2026/` →
   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7701484 (paper identified by the researcher; SSRN
   blocks automated fetches and the DOI 10.2139/ssrn.7701484 was not yet registered, so not machine-verified).
   The self-hosted PDF stays alongside it.
+- **Removed again the same day** — the SSRN paper is still under review, so its page isn't public yet.
+  Re-add the button (same three lines under `links:`) once SSRN approves it; check the DOI
+  10.2139/ssrn.7701484 resolves to this paper first.
 
 ### 2026-11-12 — Value Capture WP PDF updated
 - Replaced `static/uploads/Chatain-2026-Value-Capture-Theory-WP.pdf` with the researcher's new build of
