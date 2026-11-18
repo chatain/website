@@ -17,6 +17,9 @@ abstract: |
 links:
 - type: pdf
   url: uploads/Chatain-2026-Meta-Google-Submarine-Cables.pdf
+- type: preprint
+  label: SSRN
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7701484
 ---
 
 <!-- PDFs go in static/uploads/ (NOT public/, which is wiped on every build); link as uploads/<file>.pdf -->

@@ -11,11 +11,6 @@ _Last updated: 2026-11-18._
 
 ## Outstanding
 
-### Pending — SSRN link for the Meta/Google cables working paper
-Waiting for SSRN to approve abstract 7701484 (under review as of 2026-11-18). Then re-add the
-`type: preprint` / `label: SSRN` link to `content/workingpapers/chatain-2026/index.md`, after checking that
-DOI 10.2139/ssrn.7701484 resolves to this paper. See `HANDOVER_2026-11-18.md` §4.
-
 ### 0. Theme is stranded at an abandoned module path; Hugo pinned at 0.162.1 until migrated
 Upstream renamed `HugoBlox/hugo-blox-builder` → **`HugoBlox/kit`** (Jan 2026) and restructured the
 modules: `modules/blox-tailwind` → `modules/blox`, `modules/blox-plugin-netlify` →
@@ -59,6 +54,11 @@ All are harmless and the build succeeds.
 ---
 
 ## Recently completed
+
+### 2026-11-18 — SSRN link live for the Meta/Google cables working paper
+- SSRN approved abstract 7701484. Crossref confirms DOI 10.2139/ssrn.7701484 is *Meta and Google are Wiring
+  the World's Oceans* (O. Chatain, ORCID-authenticated). Re-added the **SSRN** button (`type: preprint`) to
+  `content/workingpapers/chatain-2026/index.md`. Closes the pending item listed in `HANDOVER_2026-11-18.md` §4.
 
 ### 2026-11-18 — SSRN link for the Meta/Google cables working paper (added, then removed pending review)
 - Added an **SSRN** button (`type: preprint`, `label: SSRN`) to `content/workingpapers/chatain-2026/` →
